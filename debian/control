@@ -9,5 +9,5 @@ Homepage: http://www.vd.ch/themes/etat-droit-finances/impots/vaudtax/
 Package: vaudtax
 Architecture: all
 Pre-Depends: ${misc:Pre-Depends}
-Depends: ${misc:Depends}
+Depends: ${misc:Depends}, zenity
 Description: VaudTax 2012
