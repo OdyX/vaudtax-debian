@@ -1,0 +1,7 @@
+config/		usr/share/vaudtax/
+# lib
+lib/		usr/share/vaudtax/
+# Misc
+readme.txt usr/share/vaudtax/doc/
+version.xml usr/share/vaudtax/
+vaudtax-2012 usr/share/vaudtax/
