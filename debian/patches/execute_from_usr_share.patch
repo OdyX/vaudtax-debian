@@ -1,0 +1,22 @@
+--- a/vaudtax-2012
++++ b/vaudtax-2012
+@@ -5,10 +5,10 @@
+ 
+ classpath='lib/dvbern-lib-update.jar'
+ 
+-if [ ! -f ///$classpath ] ; then
++if [ ! -f $classpath ] ; then
+ 	cd `dirname $0`
+ else
+-	cd //
++	cd /usr/share/vaudtax/
+ fi
+ 
+ type java &> /dev/null
+@@ -18,4 +18,4 @@
+         exit 1
+ fi
+ 
+-java -cp $classpath ch.dvbern.lib.update.Launcher
+\ No newline at end of file
++java -cp $classpath ch.dvbern.lib.update.Launcher
