@@ -1,7 +1,9 @@
+# Core
 config/		usr/share/vaudtax/
-# lib
 lib/		usr/share/vaudtax/
 # Misc
 readme.txt usr/share/vaudtax/doc/
 version.xml usr/share/vaudtax/
 vaudtax-2012 usr/bin/
+# Freedesktop stuff
+debian/vaudtax.desktop usr/share/applications/
