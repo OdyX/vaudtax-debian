@@ -7,6 +7,7 @@ How to build a Debian VaudTax package
 -------------------------------------
 
 1. Make sure to have the following packages installed:
+
 * dpkg-dev
 * debhelper (>= 9)
 * wget
