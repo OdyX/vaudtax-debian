@@ -14,4 +14,9 @@ Depends: ${misc:Depends},
  default-jre | java-runtime,
  gvfs,
  libgtk2.0-0
-Description: VaudTax 2012
+Description: assistant pour la déclaration d'impôts
+ VaudTax est le logiciel officiel du Canton, pour remplir la déclaration
+ d'impôt. Ce logiciel vous permet une économie de temps et de moyens. En
+ utilisant cet outil vous bénéficiez d'une aide permanente en ligne et
+ d'un accès direct aux formulaires. Vous pouvez aussi récupérer vos
+ données d'année en année.
