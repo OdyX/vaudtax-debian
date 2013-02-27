@@ -12,6 +12,7 @@ How to build a Debian VaudTax package
 * debhelper (>= 9)
 * wget
 * devscripts
+* quilt
 
 2. Download the latest version and prepare the build: run the following
    command from the root of this repository:
@@ -19,12 +20,17 @@ How to build a Debian VaudTax package
 $ debian/rules get-build-orig
 </pre>
 
-3. Build the binary package:
+3. Apply the patches:
+<pre>
+    $ quilt push -af
+</pre>
+
+4. Build the binary package:
 <pre>
     $ debuild -b
 </pre>
 
-4. Install it:
+5. Install it:
 <pre>
 # debi
 </pre>
