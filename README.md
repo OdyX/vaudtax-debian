@@ -1,7 +1,7 @@
-VaudTax 2012 package generator
+VaudTax 2013 package generator
 ==============================
 
-This is a Debian-package generator for VaudTax 2012.
+This is a Debian-package generator for VaudTax 2013.
 
 How to build a Debian VaudTax package
 -------------------------------------
