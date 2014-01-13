@@ -17,7 +17,7 @@ How to build a Debian VaudTax package
 2. Download the latest version and prepare the build: run the following
    command from the root of this repository:
 <pre>
-$ debian/rules get-build-orig
+$ debian/rules get-orig-source
 </pre>
 
 3. Apply the patches:
