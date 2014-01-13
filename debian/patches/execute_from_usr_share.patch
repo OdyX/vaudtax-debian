@@ -1,19 +1,19 @@
 --- a/vaudtax-2013
 +++ b/vaudtax-2013
-@@ -5,10 +5,10 @@
+@@ -5,11 +5,7 @@
  
  classpath='lib/dvbern-lib-update.jar'
  
 -if [ ! -f ///$classpath ] ; then
-+if [ ! -f $classpath ] ; then
- 	cd `dirname $0`
- else
+-	cd `dirname $0`
+-else
 -	cd //
-+	cd /usr/share/vaudtax/
- fi
+-fi
++cd /usr/share/vaudtax/
  
  type java &> /dev/null
-@@ -18,4 +18,4 @@
+ if [ "$?" -ne "0" ] ; then
+@@ -18,4 +14,4 @@
          exit 1
  fi
  
