@@ -15,7 +15,6 @@ Depends: ${misc:Depends},
  gvfs,
  libgtk2.0-0,
  libwebkitgtk-1.0-0
-Conflicts: libwebkitgtk-1.0-0 (>= 2)
 Description: assistant pour la déclaration d'impôts
  VaudTax est le logiciel officiel du Canton, pour remplir la déclaration
  d'impôt. Ce logiciel vous permet une économie de temps et de moyens. En
