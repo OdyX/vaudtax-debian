@@ -1,5 +1,5 @@
---- a/vaudtax-2014
-+++ b/vaudtax-2014
+--- a/vaudtax-2015
++++ b/vaudtax-2015
 @@ -5,11 +5,7 @@
  
  classpath='lib/dvbern-lib-update.jar'
@@ -13,10 +13,3 @@
  
  type java &> /dev/null
  if [ "$?" -ne "0" ] ; then
-@@ -18,4 +14,4 @@
-         exit 1
- fi
- 
--java -cp $classpath ch.dvbern.lib.update.Launcher
-\ No newline at end of file
-+java -cp $classpath ch.dvbern.lib.update.Launcher

@@ -4,11 +4,11 @@ Upstream-Contact: info.aci@vd.ch
 Source: http://www.vd.ch/themes/etat-droit-finances/impots/vaudtax/
 
 Files: *
-Copyright: Copyright 2012-2014 Canton de Vaud
+Copyright: Copyright 2012-2015 Canton de Vaud
 License: Proprietary
 
 Files: debian/* README.md
-Copyright: Copyright 2013-2015 Didier Raboud <didier@raboud.com>
+Copyright: Copyright 2013-2016 Didier Raboud <didier@raboud.com>
 License: GPL-3.0+
  This program is free software: you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by

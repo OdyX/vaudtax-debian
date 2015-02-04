@@ -1,7 +1,7 @@
-VaudTax 2014 package generator
+VaudTax 2015 package generator
 ==============================
 
-This is a Debian-package generator for VaudTax 2014.
+This is a Debian-package generator for VaudTax 2015.
 
 How to build a Debian VaudTax package
 -------------------------------------
@@ -38,6 +38,6 @@ $ debian/rules get-orig-source
 LICENSE
 -------
 
-All that code is GPLv3+, Copyright 2013-2015, Didier Raboud <didier@raboud.com>.
+All that code is GPLv3+, Copyright 2013-2016, Didier Raboud <didier@raboud.com>.
 
 VaudTax itself is proprietary code owned by the Swiss Vaud canton.

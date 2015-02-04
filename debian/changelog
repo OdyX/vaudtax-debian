@@ -1,5 +1,4 @@
-vaudtax (2014.1.1-0) UNRELEASED; urgency=medium
+vaudtax (2015.1.1-0) UNRELEASED; urgency=medium
 
-  * Initial release.
 
- -- Didier Raboud <odyx@debian.org>  Wed, 04 Feb 2015 20:21:14 +0100
+ -- Didier Raboud <odyx@debian.org>  Tue, 08 Mar 2016 16:38:25 +0100
