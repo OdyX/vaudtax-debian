@@ -3,7 +3,7 @@
 %:
 	dh $@
 
-VT_VERSION=2013.`date +%Y%m%d`
+VT_VERSION=2014.`date +%Y%m%d`
 
 get-orig-source:
 	# BUGS:
@@ -11,9 +11,9 @@ get-orig-source:
 	# tar to directory, move and remove, as the tarball is malformed
 	set -e; \
 		wget --no-check-certificate -c -O ../vaudtax_${VT_VERSION}.orig.tar.gz \
-			'https://vaudtax-dl.vd.ch/vaudtax2013/telechargement/linux/VaudTax_2013.tar.gz'; \
+			'https://vaudtax-dl.vd.ch/vaudtax2014/telechargement/linux/VaudTax_2014.tar.gz'; \
 		tar --transform "s#^[^/]*/#./#" -xzvf ../vaudtax_${VT_VERSION}.orig.tar.gz; \
 		VT_VERSION_REAL=`grep '<version>' version.xml | sed -e 's#^.*<version>\(.*\)</version>.*$$#\1#g'`; \
-		dch --newversion 2013.$${VT_VERSION_REAL}-0generator0 --force-bad-version -m "New 2013 $${VT_VERSION_REAL} release" ; \
-		dch --release -m "New 2013 $${VT_VERSION_REAL} release" ; \
-		ln -sf vaudtax_${VT_VERSION}.orig.tar.gz ../vaudtax_2013.$${VT_VERSION_REAL}.orig.tar.gz
+		dch --newversion 2014.$${VT_VERSION_REAL}-0generator0 --force-bad-version -m "New 2014 $${VT_VERSION_REAL} release" ; \
+		dch --release -m "New 2014 $${VT_VERSION_REAL} release" ; \
+		ln -sf vaudtax_${VT_VERSION}.orig.tar.gz ../vaudtax_2014.$${VT_VERSION_REAL}.orig.tar.gz
