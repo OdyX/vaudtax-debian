@@ -4,6 +4,6 @@ lib/		usr/share/vaudtax/
 # Misc
 readme.txt usr/share/vaudtax/doc/
 version.xml usr/share/vaudtax/
-vaudtax-2015 usr/bin/
+vaudtax-2016 usr/bin/
 # Freedesktop stuff
 debian/vaudtax.desktop usr/share/applications/

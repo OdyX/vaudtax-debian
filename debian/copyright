@@ -4,7 +4,7 @@ Upstream-Contact: info.aci@vd.ch
 Source: http://www.vd.ch/themes/etat-droit-finances/impots/vaudtax/
 
 Files: *
-Copyright: Copyright 2012-2015 Canton de Vaud
+Copyright: Copyright 2012-2016 Canton de Vaud
 License: Proprietary
 
 Files: debian/* README.md
