@@ -1,7 +1,7 @@
-VaudTax 2015 package generator
+VaudTax 2016 package generator
 ==============================
 
-This is a Debian-package generator for VaudTax 2015.
+This is a Debian-package generator for VaudTax 2016.
 
 How to build a Debian VaudTax package
 -------------------------------------
