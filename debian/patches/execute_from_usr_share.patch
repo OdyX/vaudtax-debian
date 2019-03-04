@@ -1,8 +1,8 @@
---- a/vaudtax-2017
-+++ b/vaudtax-2017
-@@ -5,11 +5,7 @@
+--- a/vaudtax-2018
++++ b/vaudtax-2018
+@@ -11,11 +11,7 @@
  
- classpath='lib/dvbern-lib-update.jar'
+ classpath='lib/dvbern-lib-update.jar:lib/cryptutil.jar'
  
 -if [ ! -f ///$classpath ] ; then
 -	cd `dirname $0`
