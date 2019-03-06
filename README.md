@@ -22,7 +22,7 @@ $ debian/rules get-orig-source
 
 3. Apply the patches:
 <pre>
-    $ quilt push -af
+    $ QUILT_PATCHES=debian/patches quilt push -af
 </pre>
 
 4. Build the binary package:

@@ -13,3 +13,9 @@
  
  type java &> /dev/null
  if [ "$?" -ne "0" ] ; then
+@@ -38,4 +34,4 @@
+ fi
+ 
+ 
+-jre/bin/java -cp $classpath ch.dvbern.lib.update.Launcher
++/usr/bin/java -cp $classpath ch.dvbern.lib.update.Launcher
