@@ -1,8 +1,13 @@
---- a/vaudtax-2018
-+++ b/vaudtax-2018
-@@ -11,11 +11,7 @@
+Index: vaudtax-debian/vaudtax-2018
+===================================================================
+--- vaudtax-debian.orig/vaudtax-2018
++++ vaudtax-debian/vaudtax-2018
+@@ -11,13 +11,9 @@ JAVA_NOT_FOUND_MSG="Aucun interpréteur
+ Merci d'installer Java à l'aide du gestionnaire de paquet de votre distribution,
+ ou sur http://www.java.com/fr/download"
  
- classpath='lib/dvbern-lib-update.jar:lib/cryptutil.jar:lib/jaxb-api.jar:lib/jaxb-impl.jar'
+-classpath='lib/dvbern-lib-update.jar:lib/cryptutil.jar'
++classpath='lib/dvbern-lib-update.jar:lib/cryptutil.jar:lib/jaxb-api.jar:lib/jaxb-impl.jar'
  
 -if [ ! -f ///$classpath ] ; then
 -	cd `dirname $0`
@@ -13,9 +18,9 @@
  
  type java &> /dev/null
  if [ "$?" -ne "0" ] ; then
-@@ -38,4 +34,4 @@
+@@ -47,4 +43,4 @@ if [ ! -f "${libWebKitFile}" ] ; then
+         echo "If it is still not working, try: sudo apt-get install libwebkitgtk-1.0-0"
  fi
  
- 
--jre/bin/java -cp $classpath ch.dvbern.lib.update.Launcher
+-java -cp $classpath ch.dvbern.lib.update.Launcher
 +/usr/bin/java -cp $classpath ch.dvbern.lib.update.Launcher
