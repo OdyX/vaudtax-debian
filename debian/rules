@@ -3,7 +3,7 @@
 %:
 	dh $@
 
-VT_YEAR=2018
+VT_YEAR=2019
 VT_VERSION=${VT_YEAR}.`date +%Y%m%d`
 
 get-orig-source:
@@ -11,7 +11,7 @@ get-orig-source:
 	# tar to directory, move and remove, as the tarball is malformed
 	set -e; \
 		wget -c -O ../vaudtax_${VT_VERSION}.orig.tar.gz \
-			'https://vaudtax-dl.vd.ch/vaudtax${VT_YEAR}/telechargement/linux/VaudTax_${VT_YEAR}.tar.gz'; \
+			'https://vaudtax-dl.vd.ch/vaudtax${VT_YEAR}/telechargement/linux/64bit/VaudTax_${VT_YEAR}.tar.gz'; \
 		tar --transform "s#^[^/]*/#./#" -xzvf ../vaudtax_${VT_VERSION}.orig.tar.gz; \
 		VT_VERSION_REAL=`grep '<version>' version.xml | sed -e 's#^.*<version>\(.*\)</version>.*$$#\1#g'`; \
 		dch --newversion ${VT_YEAR}.$${VT_VERSION_REAL}-0generator0 --force-bad-version -m "New ${VT_YEAR} $${VT_VERSION_REAL} release" ; \

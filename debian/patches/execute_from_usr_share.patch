@@ -1,6 +1,6 @@
---- a/vaudtax-2018
-+++ b/vaudtax-2018
-@@ -11,11 +11,7 @@
+--- a/vaudtax-2019
++++ b/vaudtax-2019
+@@ -13,11 +13,7 @@
  
  classpath='lib/dvbern-lib-update.jar:lib/cryptutil.jar'
  
@@ -13,9 +13,3 @@
  
  type java &> /dev/null
  if [ "$?" -ne "0" ] ; then
-@@ -38,4 +34,4 @@
- fi
- 
- 
--jre/bin/java -cp $classpath ch.dvbern.lib.update.Launcher
-+/usr/bin/java -cp $classpath ch.dvbern.lib.update.Launcher
