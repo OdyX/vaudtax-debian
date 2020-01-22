@@ -2,8 +2,8 @@ Source: vaudtax
 Section: non-free/misc
 Priority: extra
 Maintainer: Didier Raboud <odyx@debian.org>
-Build-Depends: debhelper (>= 9)
-Standards-Version: 3.9.5
+Build-Depends: debhelper-compat (= 12)
+Standards-Version: 4.4.1
 Homepage: http://www.vd.ch/themes/etat-droit-finances/impots/vaudtax/
 
 Package: vaudtax
