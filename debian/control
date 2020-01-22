@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Didier Raboud <odyx@debian.org>
 Build-Depends: debhelper-compat (= 12)
 Standards-Version: 4.4.1
-Homepage: http://www.vd.ch/themes/etat-droit-finances/impots/vaudtax/
+Homepage: https://www.vd.ch/themes/etat-droit-finances/impots/impots-pour-les-individus/remplir-ma-declaration-dimpot/vaudtax/
 
 Package: vaudtax
 Architecture: all
