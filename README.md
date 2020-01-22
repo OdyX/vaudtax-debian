@@ -1,7 +1,7 @@
-VaudTax 2018 package generator
+VaudTax 2019 package generator
 ==============================
 
-This is a Debian-package generator for VaudTax 2018.
+This is a Debian-package generator for VaudTax 2019.
 
 How to build a Debian VaudTax package
 -------------------------------------
@@ -38,6 +38,6 @@ $ debian/rules get-orig-source
 LICENSE
 -------
 
-All that code is GPLv3+, Copyright 2013-2018, Didier Raboud <didier@raboud.com>.
+All that code is GPLv3+, Copyright 2013-2020, Didier Raboud <didier@raboud.com>.
 
 VaudTax itself is proprietary code owned by the Swiss Vaud canton.
