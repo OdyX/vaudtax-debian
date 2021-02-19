@@ -1,5 +1,5 @@
-vaudtax (2019.1.0-0) UNRELEASED; urgency=medium
+vaudtax (2020.1.0-0generator0) unstable; urgency=medium
 
-  * New 2019 1.0 release
+  * New 2020 1.0 release
 
- -- Didier Raboud <odyx@debian.org>  Mon, 04 Mar 2019 08:01:12 +0100
+ -- Didier Raboud <odyx@debian.org>  Wed, 22 Jan 2020 09:24:25 +0100

@@ -3,7 +3,7 @@
 %:
 	dh $@
 
-VT_YEAR=2019
+VT_YEAR=2020
 VT_VERSION=${VT_YEAR}.`date +%Y%m%d`
 
 get-orig-source:

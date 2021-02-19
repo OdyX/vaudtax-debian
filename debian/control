@@ -2,19 +2,22 @@ Source: vaudtax
 Section: non-free/misc
 Priority: optional
 Maintainer: Didier Raboud <odyx@debian.org>
-Build-Depends: debhelper-compat (= 12)
-Standards-Version: 4.4.1
-Homepage: https://www.vd.ch/themes/etat-droit-finances/impots/impots-pour-les-individus/remplir-ma-declaration-dimpot/vaudtax/
+Build-Depends:
+ debhelper-compat (= 13),
+Standards-Version: 4.5.1
+Homepage: https://www.vd.ch/themes/etat-droit-finances/impots/impots-pour-les-individus/remplir-ma-declaration-dimpot/vaudtax-2020/
 
 Package: vaudtax
 Architecture: all
-Pre-Depends: ${misc:Pre-Depends}
-Depends: ${misc:Depends},
- zenity,
+Pre-Depends:
+ ${misc:Pre-Depends},
+Depends:
  default-jre | java-runtime,
  gvfs,
  libgtk2.0-0,
- libwebkitgtk-1.0-0
+ libwebkitgtk-1.0-0,
+ zenity,
+ ${misc:Depends},
 Description: assistant pour la déclaration d'impôts
  VaudTax est le logiciel officiel du Canton, pour remplir la déclaration
  d'impôt. Ce logiciel vous permet une économie de temps et de moyens. En

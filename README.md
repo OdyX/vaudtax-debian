@@ -1,7 +1,7 @@
-VaudTax 2019 package generator
+VaudTax 2020 package generator
 ==============================
 
-This is a Debian-package generator for VaudTax 2019.
+This is a Debian-package generator for VaudTax 2020.
 
 How to build a Debian VaudTax package
 -------------------------------------
@@ -9,7 +9,7 @@ How to build a Debian VaudTax package
 1. Make sure to have the following packages installed:
 
 * dpkg-dev
-* debhelper (>= 9)
+* debhelper (>= 13)
 * wget
 * devscripts
 * quilt

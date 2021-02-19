@@ -1,14 +1,14 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: VaudTax
 Upstream-Contact: info.aci@vd.ch
-Source: http://www.vd.ch/themes/etat-droit-finances/impots/vaudtax/
+Source: https://www.vd.ch/themes/etat-droit-finances/impots/impots-pour-les-individus/remplir-ma-declaration-dimpot/vaudtax-2020/
 
 Files: *
-Copyright: Copyright 2012-2018 Canton de Vaud
+Copyright: Copyright 2012-2021 Canton de Vaud
 License: Proprietary
 
 Files: debian/* README.md
-Copyright: Copyright 2013-2018 Didier Raboud <didier@raboud.com>
+Copyright: Copyright 2013-2021 Didier Raboud <didier@raboud.com>
 License: GPL-3.0+
  This program is free software: you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
