@@ -1,5 +1,5 @@
---- a/vaudtax-2019
-+++ b/vaudtax-2019
+--- a/vaudtax-2020
++++ b/vaudtax-2020
 @@ -13,11 +13,7 @@
  
  classpath='lib/dvbern-lib-update.jar:lib/cryptutil.jar'

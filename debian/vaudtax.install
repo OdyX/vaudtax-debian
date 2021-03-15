@@ -3,6 +3,6 @@ config/		usr/share/vaudtax/
 lib/		usr/share/vaudtax/
 # Misc
 version.xml     usr/share/vaudtax/
-vaudtax-2019    usr/bin/
+vaudtax-20*     usr/bin/
 # Freedesktop stuff
 debian/vaudtax.desktop usr/share/applications/
