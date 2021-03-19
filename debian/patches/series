@@ -1,1 +1,2 @@
 execute_from_usr_share.patch
+fix_class_path_for_jdk11.patch
