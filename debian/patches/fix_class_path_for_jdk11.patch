@@ -1,0 +1,13 @@
+Index: vaudtax-debian/debian/vaudtax/usr/bin/vaudtax-2020
+===================================================================
+--- vaudtax-debian.orig/vaudtax-2020
++++ vaudtax-debian/vaudtax-2020
+@@ -11,7 +11,7 @@ JAVA_NOT_FOUND_MSG="Aucun interpréteur
+ Merci d'installer Java à l'aide du gestionnaire de paquet de votre distribution,
+ ou sur http://www.java.com/fr/download"
+ 
+-classpath='lib/dvbern-lib-update.jar:lib/cryptutil.jar'
++classpath='lib/dvbern-lib-update.jar:lib/cryptutil.jar:lib/jaxb-api.jar:lib/jaxb-impl.jar'
+ 
+ cd /usr/share/vaudtax/
+ 
